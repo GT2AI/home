@@ -10,18 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@mantine/core": "^7.17.1",
-    "@mantine/hooks": "^7.17.1",
-    "@tabler/icons-react": "^3.31.0",
-    "d3": "^7.9.0",
-    "framer-motion": "^12.5.0",
-    "lodash": "^4.17.21",
-    "lucide-react": "^0.479.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "recharts": "^2.15.1",
-    "vite-plugin-pwa": "^0.21.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
