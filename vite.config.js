@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/home/',
+  base: 'https://gt2ai.github.io/home/',
   plugins: [
     react(),
     VitePWA({
