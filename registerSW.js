@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/home/sw.js', { scope: '/home/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://gt2ai.github.io/home/sw.js', { scope: 'https://gt2ai.github.io/home/' })})}
