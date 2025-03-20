@@ -35,6 +35,7 @@ const ProductCard = ({ product }) => {
     uptime,
     technologies,
     team,
+    url,
     repo,
     lastUpdate
   } = product;
@@ -160,6 +161,9 @@ const ProductCard = ({ product }) => {
         {/* Actions */}
         <Stack direction="row" spacing={3} mt={4}>
           <Button 
+            as={Link}
+            href={url}
+            target="_blank"
             colorScheme="brand" 
             leftIcon={<FiExternalLink />}
             size="sm"
