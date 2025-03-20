@@ -36,7 +36,7 @@ const Header = () => {
     { name: 'Community', href: '#community' },
     { name: 'Makerspace', href: '#makerspace' },
     { name: 'Apply', href: '#apply' },
-    { name: 'Docs', href: 'https://github.com/gt-ai/docs', external: true },
+    { name: 'Docs', href: 'https://gt-ai-docs.vercel.app', external: true },
   ];
 
   return (
@@ -110,7 +110,7 @@ const Header = () => {
             )}
 
             <Link 
-              href="https://github.com/gt-ai" 
+              href="https://github.com/GT2AI" 
               target="_blank" 
               rel="noopener noreferrer"
               display={{ base: 'none', md: 'inline-flex' }}
