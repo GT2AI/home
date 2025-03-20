@@ -59,7 +59,7 @@ const Footer = () => {
                 Products
               </Text>
               <Stack spacing={3} align="flex-start">
-                <Link href="https://gt-ai-search.vercel.app/">GT^Search</Link>
+                <Link href="https://gt-ai-search.vercel.app/" isExternal>GT^Search</Link>
               </Stack>
             </Stack>
 
@@ -69,8 +69,8 @@ const Footer = () => {
               </Text>
               <Stack spacing={3} align="flex-start">
                 <Link href="https://gt-ai-docs.vercel.app/" isExternal>Documentation</Link>
-                <Link href="https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace">AI Makerspace</Link>
-                <Link href="https://github.com/GT2AI">Contribute</Link>
+                <Link href="https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace" isExternal>AI Makerspace</Link>
+                <Link href="https://github.com/GT2AI" isExternal>Contribute</Link>
               </Stack>
             </Stack>
 
