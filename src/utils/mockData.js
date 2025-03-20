@@ -27,7 +27,7 @@ export const generateSimulatedData = () => {
           { id: 'user2', name: 'Mitchell Gay', avatar: 'https://avatars.githubusercontent.com/u/98074122?v=4' },
         ],
         url: 'https://gt-ai-search.vercel.app/',
-        repo: 'https://github.com/GT2AI/home',
+        repo: 'https://github.com/GT2AI/search',
         lastUpdate: new Date(now - randomInRange(1, 48) * 60 * 60 * 1000).toISOString(),
       },
     ];
