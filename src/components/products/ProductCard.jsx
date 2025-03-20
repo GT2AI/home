@@ -30,6 +30,7 @@ const ProductCard = ({ product }) => {
   const {
     id,
     name,
+    screenshot,
     description,
     usage,
     uptime,
@@ -39,9 +40,6 @@ const ProductCard = ({ product }) => {
     repo,
     lastUpdate
   } = product;
-
-  // Generate a placeholder image with the first letter of the product name
-  const placeholderImage = `https://via.placeholder.com/300x200/2B6CB0/FFFFFF?text=${name.charAt(0)}`;
 
   return (
     <Box
@@ -69,7 +67,7 @@ const ProductCard = ({ product }) => {
         overflow="hidden"
       >
         <Image
-          src={placeholderImage}
+          src={screenshot}
           alt={`${name} preview`}
           height="140px"
           width="100%"

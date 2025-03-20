@@ -39,13 +39,13 @@ const ProductShowcase = ({ products }) => {
           <Icon as={FiPackage} mr={2} /> Products
         </Heading>
 
-        <Button 
+        {/* <Button 
           size="sm" 
           variant="outline"
           fontFamily="mono"
         >
           View All
-        </Button>
+        </Button> */}
       </Flex>
 
       <Box

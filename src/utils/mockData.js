@@ -17,6 +17,7 @@ export const generateSimulatedData = () => {
       {
         id: 'gt-search',
         name: 'GT^Search',
+        screenshot: '/product-shots/gt-search.png',
         description: 'Semantic search for Georgia Tech resources',
         usage: randomInRange(800, 1200),
         uptime: randomFloat(99.7, 100, 2),
