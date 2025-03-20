@@ -45,12 +45,12 @@ const FiUsers = () => (
 
 // Mock documentation links
 const mockDocs = [
-    { id: 1, title: 'Getting Started Guide', category: 'guides', icon: FiFileText },
-    { id: 2, title: 'GPU Access Tutorial', category: 'tutorials', icon: FiCpu },
-    { id: 3, title: 'Python Best Practices', category: 'guides', icon: FiCode },
-    { id: 4, title: 'Model Deployment', category: 'tutorials', icon: FiPackage },
-    { id: 5, title: 'API Documentation', category: 'api', icon: FiTool },
-    { id: 6, title: 'Contributing Guidelines', category: 'community', icon: FiUsers },
+    { id: 1, title: 'Getting Started Guide', category: 'guides', icon: FiFileText, endpoint: 'started' },
+    { id: 2, title: 'GPU Access Tutorial', category: 'tutorials', icon: FiCpu, endpoint: 'gps'},
+    { id: 3, title: 'Python Best Practices', category: 'guides', icon: FiCode, endpoint: 'practices'},
+    { id: 4, title: 'Model Deployment', category: 'tutorials', icon: FiPackage, endpoint: 'deployment'},
+    { id: 5, title: 'API Documentation', category: 'api', icon: FiTool, endpoint: 'api' },
+    { id: 6, title: 'Contributing Guidelines', category: 'community', icon: FiUsers, endpoint: 'contributions' },
   ];
 
 const DocumentationHub = ({ recentTools }) => {
@@ -103,7 +103,7 @@ const DocumentationHub = ({ recentTools }) => {
         {filteredDocs.map((doc) => (
           <Link
             key={doc.id}
-            href="#"
+            href={`https://gt-ai-docs.vercel.app/${doc.endpoint}`}
             p={2}
             borderRadius="md"
             display="flex"
