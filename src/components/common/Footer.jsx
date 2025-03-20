@@ -59,9 +59,7 @@ const Footer = () => {
                 Products
               </Text>
               <Stack spacing={3} align="flex-start">
-                <Link href="#gt-search">GT^Search</Link>
-                <Link href="#campus-copilot">Campus Copilot</Link>
-                <Link href="#research-radar">Research Radar</Link>
+                <Link href="https://gt-ai-search.vercel.app/">GT^Search</Link>
               </Stack>
             </Stack>
 
@@ -70,9 +68,9 @@ const Footer = () => {
                 Resources
               </Text>
               <Stack spacing={3} align="flex-start">
-                <Link href="https://github.com/gt-ai/docs" isExternal>Documentation</Link>
-                <Link href="#makerspace">AI Makerspace</Link>
-                <Link href="#">Contribute</Link>
+                <Link href="https://gt-ai-docs.vercel.app/" isExternal>Documentation</Link>
+                <Link href="https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace">AI Makerspace</Link>
+                <Link href="https://github.com/GT2AI">Contribute</Link>
               </Stack>
             </Stack>
 
@@ -81,9 +79,10 @@ const Footer = () => {
                 Community
               </Text>
               <Stack spacing={3} align="flex-start">
+              <Link href="#apply">Build a Product</Link>
                 <Link href="#apply">Join a Team</Link>
-                <Link href="https://github.com/gt-ai" isExternal>GitHub</Link>
-                <Link href="#">Events</Link>
+                <Link href="https://github.com/GT2AI" isExternal>GitHub</Link>
+                {/* <Link href="#">Events</Link> */}
               </Stack>
             </Stack>
           </Stack>
@@ -105,7 +104,7 @@ const Footer = () => {
             <Tooltip label="GitHub" hasArrow placement="top">
               <IconButton
                 as={Link}
-                href="https://github.com/gt-ai"
+                href="https://github.com/GT2AI"
                 aria-label="GitHub"
                 icon={<FaGithub />}
                 size="sm"
@@ -114,7 +113,7 @@ const Footer = () => {
                 isExternal
               />
             </Tooltip>
-            <Tooltip label="Twitter" hasArrow placement="top">
+            {/* <Tooltip label="Twitter" hasArrow placement="top">
               <IconButton
                 as={Link}
                 href="#"
@@ -125,11 +124,11 @@ const Footer = () => {
                 variant="ghost"
                 isExternal
               />
-            </Tooltip>
+            </Tooltip> */}
             <Tooltip label="Discord" hasArrow placement="top">
               <IconButton
                 as={Link}
-                href="#"
+                href="https://discord.gg/tdZvPuTazB"
                 aria-label="Discord"
                 icon={<FaDiscord />}
                 size="sm"
@@ -147,7 +146,7 @@ const Footer = () => {
             colorScheme="gray"
             fontFamily="mono"
             as={Link}
-            href="https://github.com/gt-ai/gt-ai-homepage"
+            href="https://github.com/GT2AI/home"
             isExternal
           >
             View Source
