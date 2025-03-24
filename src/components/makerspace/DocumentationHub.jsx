@@ -103,7 +103,7 @@ const DocumentationHub = ({ recentTools }) => {
         {filteredDocs.map((doc) => (
           <Link
             key={doc.id}
-            href={`https://gt-ai-docs.vercel.app/${doc.endpoint}`}
+            href={`https://gt-ai-docs.vercel.app/docs/${doc.endpoint}`}
             p={2}
             borderRadius="md"
             display="flex"
