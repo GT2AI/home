@@ -46,7 +46,7 @@ const FiUsers = () => (
 // Mock documentation links
 const mockDocs = [
     { id: 1, title: 'Getting Started Guide', category: 'guides', icon: FiFileText, endpoint: 'started' },
-    { id: 2, title: 'GPU Access Tutorial', category: 'tutorials', icon: FiCpu, endpoint: 'gps'},
+    { id: 2, title: 'GPU Access Tutorial', category: 'tutorials', icon: FiCpu, endpoint: 'gpu'},
     { id: 3, title: 'Python Best Practices', category: 'guides', icon: FiCode, endpoint: 'practices'},
     { id: 4, title: 'Model Deployment', category: 'tutorials', icon: FiPackage, endpoint: 'deployment'},
     { id: 5, title: 'API Documentation', category: 'api', icon: FiTool, endpoint: 'api' },
