@@ -15,6 +15,7 @@ import {
   Divider
 } from '@chakra-ui/react';
 import { FiUsers, FiCode, FiTool, FiStar } from 'react-icons/fi';
+import { Link as RouterLink } from 'react-router-dom';
 
 const ApplicationSection = () => {
   const { colorMode } = useColorMode();
@@ -87,6 +88,8 @@ const ApplicationSection = () => {
               colorScheme="brand"
               variant="solid"
               width="full"
+              as={RouterLink}
+              to="/build-product"
             >
               Submit Your Idea
             </Button>
@@ -127,6 +130,8 @@ const ApplicationSection = () => {
               colorScheme="brand"
               variant="outline"
               width="full"
+              as={RouterLink}
+              to="/join-team"
             >
               Apply to Join
             </Button>

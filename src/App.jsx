@@ -3,6 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import { Box, useColorMode, useToast } from '@chakra-ui/react';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import BuildProductPage from './pages/BuildProductPage';
+import JoinTeamPage from './pages/JoinTeamPage';
 import NotFound from './pages/NotFound';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
@@ -87,6 +89,8 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/build-product" element={<BuildProductPage />} />
+            <Route path="/join-team" element={<JoinTeamPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Box>
