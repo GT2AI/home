@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Box, useColorMode, useToast } from '@chakra-ui/react';
 import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 import NotFound from './pages/NotFound';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
@@ -85,6 +86,7 @@ function App() {
         <Box flex="1">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Box>

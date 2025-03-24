@@ -32,6 +32,7 @@ const Header = () => {
   const isMobile = useBreakpointValue({ base: true, md: false });
 
   const navItems = [
+    { name: 'About', href: '/about' },
     { name: 'Products', href: '#products' },
     { name: 'Community', href: '#community' },
     { name: 'Makerspace', href: '#makerspace' },

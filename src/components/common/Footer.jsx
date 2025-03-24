@@ -49,7 +49,7 @@ const Footer = () => {
               GT<sup>AI</sup>
             </Text>
             <Text fontSize="sm" maxW="xs" color={colorMode === 'dark' ? 'gray.400' : 'gray.600'}>
-              Student-built AI products powering Georgia Tech
+              Student-built AI products powering Georgia Tech.
             </Text>
           </Box>
 
@@ -71,6 +71,16 @@ const Footer = () => {
                 <Link href="https://gt-ai-docs.vercel.app/" isExternal>Documentation</Link>
                 <Link href="https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace" isExternal>AI Makerspace</Link>
                 <Link href="https://github.com/GT2AI" isExternal>Contribute</Link>
+              </Stack>
+            </Stack>
+
+            <Stack spacing={4} align="flex-start">
+              <Text fontWeight="semibold" fontSize="sm" textTransform="uppercase" color={colorMode === 'dark' ? 'gray.400' : 'gray.600'}>
+                About
+              </Text>
+              <Stack spacing={3} align="flex-start">
+                <Link href="/about" isExternal>Our Team</Link>
+                <Link href="https://larryheck.github.io/avalab/" isExternal>AVA Lab</Link>
               </Stack>
             </Stack>
 
