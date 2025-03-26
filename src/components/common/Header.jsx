@@ -33,10 +33,10 @@ const Header = () => {
 
   const navItems = [
     { name: 'About', href: '/about' },
-    { name: 'Products', href: '#products' },
-    { name: 'Community', href: '#community' },
-    { name: 'Makerspace', href: '#makerspace' },
-    { name: 'Apply', href: '#apply' },
+    { name: 'Products', href: '/#products' },
+    { name: 'Community', href: '/#community' },
+    { name: 'Makerspace', href: '/#makerspace' },
+    { name: 'Apply', href: '/#apply' },
     { name: 'Docs', href: 'https://gt-ai-docs.vercel.app', external: true },
   ];
 

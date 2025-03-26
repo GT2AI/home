@@ -53,7 +53,7 @@ const AboutPage = () => {
       name: 'Laurence J. Jacobs',
       role: 'Senior Vice Provost',
       organization: 'Education and Learning',
-      contribution: 'Provided initial funding and continues to support the growth of GT^AI initiatives.'
+      contribution: 'Acts as a key advisor to the initiative and supports the growth of GT^AI organization.'
     },
     {
       name: 'Matthieu R. Bloch',
@@ -91,6 +91,7 @@ const AboutPage = () => {
             <Heading 
               as="h1" 
               size="3xl" 
+              padding={10}
               fontFamily="heading"
               bgGradient={colorMode === 'dark' 
                 ? 'linear(to-r, brand.200, brand.400)'
@@ -127,7 +128,7 @@ const AboutPage = () => {
             <Card variant={colorMode === 'dark' ? 'outline' : 'elevated'}>
               <CardBody>
                 <Text fontSize="lg" mb={6} lineHeight="tall">
-                  GT^AI was founded as a collaborative initiative between key leaders at Georgia Tech: Larry Jacobs of the Jacobs Foundation, who provided essential seed funding; Professor Matthieu Bloch, who established the AI Makerspace as a hub for student innovation; and Professor Larry Heck, whose industry expertise and academic guidance have been instrumental in shaping our vision.
+                  GT^AI was founded as a collaborative initiative between key leaders at Georgia Tech: Larry Jacobs of the Office of Education & Learning; Professor Matthieu Bloch, head of the AI Makerspace; and Professor Larry Heck, Professor and head of the AVA Lab.
                 </Text>
                 
                 <Text fontSize="lg" mb={6} lineHeight="tall">
