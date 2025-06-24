@@ -36,7 +36,7 @@ A modern, responsive PWA (Progressive Web App) that showcases student-built AI p
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/gt-ai/gt-ai-homepage.git
+   git clone https://github.com/GT2AI/home.git
    cd gt-ai-homepage
    ```
 
